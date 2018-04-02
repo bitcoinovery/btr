@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/btr_bg.qm</file>
+        <file alias="de">locale/btr_de.qm</file>
+        <file alias="en">locale/btr_en.qm</file>
+        <file alias="es">locale/btr_es.qm</file>
+        <file alias="fi">locale/btr_fi.qm</file>
+        <file alias="fr">locale/btr_fr.qm</file>
+        <file alias="it">locale/btr_it.qm</file>
+        <file alias="ja">locale/btr_ja.qm</file>
+        <file alias="pl">locale/btr_pl.qm</file>
+        <file alias="pt">locale/btr_pt.qm</file>
+        <file alias="ru">locale/btr_ru.qm</file>
+        <file alias="sk">locale/btr_sk.qm</file>
+        <file alias="sv">locale/btr_sv.qm</file>
+        <file alias="vi">locale/btr_vi.qm</file>
+        <file alias="zh_CN">locale/btr_zh_CN.qm</file>
+        <file alias="zh_TW">locale/btr_zh_TW.qm</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,22 @@
+[Unit]
+Description=BTR's distributed currency daemon
+After=network.target
+
+[Service]
+User=btrcore
+Group=btrcore
+
+Type=forking
+PIDFile=/var/lib/btrd/btrd.pid
+ExecStart=/usr/bin/btrd -daemon -pid=/var/lib/btrd/btrd.pid \
+-conf=/etc/btrcore/btr.conf -datadir=/var/lib/btrd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
